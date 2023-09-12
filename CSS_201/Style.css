@@ -1,0 +1,275 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  header {
+    height: 120px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navLogo a img {
+    padding: 10px 100px;
+    padding: 25px 100px;
+  }
+  .navLinks ul {
+    padding-right: 50px;
+  }
+  .navLinks ul li {
+    display: inline-block;
+    padding: 30px 50px;
+  }
+  .navLinks ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+  }
+  .hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url("https://rocketman.learnwagtail.com/media/images/spacex-OHOU-5UVIYQ-unsplash.2e16d0ba.fill-786x552.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  .textBox {
+    padding: 165px 90px;
+    color: white;
+  }
+  .textBox h1 {
+    margin: 0;
+    font-size: 62px;
+    font-weight: lighter;
+  }
+  .textBox p {
+    margin: 30px 0px 60px 0px;
+    font-size: 31px;
+    font-weight: lighter;
+  }
+  .textBox a {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 15px 35px;
+  }
+  .textBox a:hover {
+    background-color: rgb(223, 223, 223);
+  }
+  .userInfo {
+    padding: 70px;
+  }
+  .userInfo p {
+    font-size: 26px;
+    font-weight: lighter;
+    text-align: center;
+  }
+  /******************************
+          done till here
+  ******************************/
+  .mainBoxToy {
+    margin: 0px 100px 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  a.boxImage img {
+    width: 100%;
+  }
+  .box {
+    flex-basis: 48%;
+  }
+  .boxInfo {
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+    border: 1px solid rgb(218, 217, 217);
+    position: relative;
+    top: -5px;
+    height: 140px;
+  }
+  .boxInfo a {
+    text-decoration: none;
+    color: black;
+  }
+  .boxInfo a h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+  }
+  .boxInfo a p {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .boxInfo a#mainLink {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(92, 30, 149);
+  }
+  .container {
+    margin: 100px 100px 170px 100px;
+    position: relative;
+    display: flex;
+  }
+  .rocketBox {
+    width: 480px;
+    height: 300px;
+    background-color: black;
+    color: white;
+    z-index: 1;
+    position: absolute;
+    bottom: -50px;
+    right: 30px;
+    padding: 50px;
+    box-sizing: border-box;
+  }
+  .rocketBox h2 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .rocketBox p {
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 30px 0px 50px 0px;
+  }
+  .rocketBox a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: black;
+    background-color: white;
+    padding: 15px 40px;
+  }
+  .rocketBox a:hover {
+    background-color: rgb(223, 223, 223);
+  }
+  #second {
+    display: flex;
+    flex-direction: row-reverse;
+    align-self: center;
+    position: relative;
+  }
+  #second a img {
+    box-sizing: border-box;
+    width: 750px;
+  }
+  #leftMiniContainer {
+    position: absolute;
+    bottom: -60px;
+    left: 60px;
+  }
+  #rightMiniContainerSecond {
+    height: 350px;
+    padding: 50px 40px;
+  }
+  
+  .contactUs {
+    text-align: center;
+  }
+  .contactUs p {
+    font-size: 28px;
+    font-weight: lighter;
+    margin-bottom: 50px;
+  }
+  .contactUs a.blueButton {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px 45px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(125, 46, 230);
+  }
+  .contactUs a.blueButton:hover {
+    background-color: rgb(122, 20, 255);
+  }
+  .ourInfo {
+    box-sizing: border-box;
+    margin: 150px auto;
+    width: 700px;
+  }
+  .ourInfo h3 {
+    font-size: 26px;
+    font-weight: bolder;
+    margin: 0;
+  }
+  .ourInfo p {
+    margin: 10px;
+    font-size: 22px;
+  }
+  .customerCare {
+    background-color: rgb(136, 46, 253);
+    color: white;
+    text-align: left;
+    font-family: sans-serif;
+    padding: 50px 100px 20px 100px;
+    position: relative;
+  }
+  .customerCare h2 {
+    font-size: 42px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+  }
+  .customerCare p {
+    font-size: 25px;
+    font-weight: lighter;
+    display: inline-block;
+  }
+  .customerCare a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: black;
+    background-color: white;
+    padding: 15px 40px;
+    position: absolute;
+    top: 150px;
+    right: 100px;
+  }
+  .customerCare a:hover {
+    background-color: rgb(223, 223, 223);
+  }
+  #footer {
+    background-color: black;
+    color: white;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footerLogos a img {
+    filter: invert(1);
+    width: 20px;
+    margin-right: 10px;
+  }
+  .child-flex ul li {
+    display: block;
+    margin-top: 10px;
+  }
+  .links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+  .contactUsFooter p a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+  .child-flex {
+    width: 25%;
+  }
+  .child-flex p {
+    font-size: 15px;
+  }
+  .footerHead {
+    font-size: small;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.4);
+  }
+  
