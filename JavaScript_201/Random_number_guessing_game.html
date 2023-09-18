@@ -3,23 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random Number Guessing Gamet</title>
+    <title>Random Number Guessing Game</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <script>
-        while(true) {
-            let number = prompt("Guess the number")
+    <div>
+        <script>
+            while (true) {
+                let number = prompt("Guess the number");
                 number = Number(number);
-            const randomNumber = math.ceil(Math.rnadom() * 10);
+                const randomNumber = Math.ceil(Math.random() * 10);
 
-        if(number === randomNumber) {
-            alert("YOU WIN");
-            break;
-        } else {
-            console.log("You guessed", number, "But the right number was", randomNumber);
-        }
-        }
-    </script>
+                if (isNaN(number)) {
+                    alert("Please enter a valid number.");
+                } else if (number === randomNumber) {
+                    alert("YOU WIN");
+                    break;
+                } else {
+                    console.log("You guessed", number, "But the right number was", randomNumber);
+                }
+            }
+        </script>
+    </div>
+    <script src="js/apps.js"></script>
 </body>
 </html>
