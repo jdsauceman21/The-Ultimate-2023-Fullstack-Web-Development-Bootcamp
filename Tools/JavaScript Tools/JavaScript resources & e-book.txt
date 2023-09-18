@@ -1,0 +1,13 @@
+Free e-books
+Eloquent JavaScript
+
+Eloquent JavaScript is a GREAT book. I've known people who've read through this book before teaching college and university courses. It's one of the most highly recommended JavaScript e-books available on the internet. You can read through it for free here: https://eloquentjavascript.net/
+
+GoalKicker
+
+GoalKicker has tonnes of amazing books. Definitely take a look at this free JavaScript Notes for Professionals book. https://goalkicker.com/JavaScriptBook/JavaScriptNotesForProfessionals.pdf
+
+Resources
+Mozilla Developer Network has GREAT online JavaScript documentation and references. https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+But if you need a quick example or reminder about how something works, I also recommend quickly browsing over w3schools. https://www.w3schools.com/JSREF/DEFAULT.ASP
