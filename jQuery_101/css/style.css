@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+button {
+    display: block;
+    margin: auto;
+}
+img {
+    width: 200px;
+    height: auto;
+    box-shadow: 10px 10px 5px #000000;
+    display: block;
+    margin: auto;
+}
