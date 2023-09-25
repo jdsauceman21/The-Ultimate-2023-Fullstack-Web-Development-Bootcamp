@@ -8,14 +8,14 @@ import { useState } from 'react';
 
 function App() {
 
-  const [searchResults, setsearchResults] = useState ([])
-  const [searchText, setSearchText] = useState ('Searching for ...')
+  const [searchResults, setSearchResults] = useState ([])
+  const [searchText, setSearchText] = useState ('')
 
   return (
     <div>
-      <Navbar/>
+      <Navbar searchText={searchText} setSearchText={setSearchText}/>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/Home" element={<Home />} />
         <Route path="/about" element={<AboutView />} />
         <Route path='/search' element={<SearchView keyword={searchText} searchResults={searchResults}/>}/>
       </Routes>
