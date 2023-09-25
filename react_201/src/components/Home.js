@@ -1,7 +1,16 @@
+import Hero from './Hero';
+
 const Home = () => {
     return (
       <>
-        <h1>Hello world from React 201</h1>
+        <Hero text= "Welcome to React 201"/>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-8 offset-lg-2 my-5">
+              <p>lorem ipsum</p>
+            </div>
+          </div>
+        </div>
       </>
     )
   }

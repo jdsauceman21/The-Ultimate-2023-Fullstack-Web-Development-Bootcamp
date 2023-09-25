@@ -1,7 +1,16 @@
+import Hero from "./Hero";
+
 const AboutView = () => {
     return (
         <>
-            <h2>About us</h2>
+            <Hero text="About Us"/>
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-8 offset-lg-2 my-5">
+                    <p>lorem ipsum</p>
+                    </div>
+                </div>
+            </div>
         </>
     )
   }
