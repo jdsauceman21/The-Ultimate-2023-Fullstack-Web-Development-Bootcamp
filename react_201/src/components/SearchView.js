@@ -11,7 +11,7 @@ const MovieCard = ({movie}) => {
   return (
     <div className="col-lg-3 col-md-3 col-2 my-4">
       <div className="card">
-        <img src={posterUrl} class="card-img-top" alt={movie.original_title}/>
+        <img src={posterUrl} className="card-img-top" alt={movie.original_title}/>
         <div className="card-body">
           <h5 className="card-title">Card title</h5>
           <Link to={detailUrl} className="btn btn-primary">Show Details</Link>
