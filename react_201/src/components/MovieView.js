@@ -45,7 +45,7 @@ const MovieView = () => {
     }
     if (movieDetails && movieDetails.original_title) {
       const posterPath = `https://image.tmdb.org/t/p/w500${movieDetails.poster_path}`;
-      const backdropPath = `https://image.tmdb.org/t/p/original${movieDetails.backdrop_path}`;
+      const backdropPath = `https://image.tmdb.org/t/p/original${movieDetails.backdrop_path}`
 
       return (
         <>
