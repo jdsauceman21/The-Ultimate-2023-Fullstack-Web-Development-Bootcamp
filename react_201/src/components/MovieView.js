@@ -1,6 +1,6 @@
 import Hero from "./Hero";
-import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import React, { useState, useEffect } from "react";
 
 const MovieView = () => {
   const { id } = useParams();
@@ -49,7 +49,9 @@ const MovieView = () => {
 
       return (
         <>
+          {backdropPath && (
           <Hero text={movieDetails.original_title} backdrop={backdropPath} />
+          )}
           <div className="container my-5">
             <div className="row">
               <div className="col-md-3">
