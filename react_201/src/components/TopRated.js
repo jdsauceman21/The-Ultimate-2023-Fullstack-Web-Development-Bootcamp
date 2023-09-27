@@ -44,6 +44,3 @@ const TopRated = () => {
 };
 
 export default TopRated;
-
-//https://api.themoviedb.org/3/movie/now_playing?api_key=1547e5fdbce5573a8db709348dd4b317&language=en-US&page=1
-//https://api.themoviedb.org/3/movie/top_rated?api_key=1547e5fdbce5573a8db709348dd4b317&language=en-US&page=1
