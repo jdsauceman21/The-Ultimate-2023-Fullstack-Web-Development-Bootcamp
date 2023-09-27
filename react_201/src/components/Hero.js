@@ -5,7 +5,7 @@ const Hero = ({ text, backdrop }) => {
       {backdrop && (
         <div className="hero-backdrop" style={{backgroundImage: `url(${backdrop})`}}></div>
       )}
-      {/* {backdrop} */}
+      {backdrop}
     </header>
   );
 };
