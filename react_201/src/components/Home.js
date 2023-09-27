@@ -1,18 +1,15 @@
-import Hero from './Hero';
+import Hero from "./Hero";
+import TopRated from "./TopRated";
+
+
 
 const Home = () => {
-    return (
-      <>
-        <Hero text= "Welcome to React 201"/>
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-8 offset-lg-2 my-5">
-              <p>Filler Text</p>
-            </div>
-          </div>
-        </div>
-      </>
-    )
-  }
+  return (
+    <>
+      <Hero text="Now Playing" />
+      <TopRated/>
+    </>
+  );
+};
 
-  export default Home;
+export default Home;
