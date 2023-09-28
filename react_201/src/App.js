@@ -29,7 +29,7 @@ function App() {
       <Routes>
         <Route path="/Home" element={<Home />} />
         <Route path="/about" element={<AboutView />} />
-        <Route path="/about" element={<Popular />} />
+        <Route path="/popular" element={<Popular />} />
         <Route path="/search" element={<SearchView keyword={searchText} searchResults={searchResults}/>}/>
         <Route path="/movies/:id" element={<MovieView/>} />
       </Routes>
