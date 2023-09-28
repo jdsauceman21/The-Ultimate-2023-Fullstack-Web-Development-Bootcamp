@@ -4,7 +4,7 @@ import MovieCard from "./MovieCard";
 
 
 const TopRated = () => {
-  const api = "https://api.themoviedb.org/3/movie/now_playing?api_key=1547e5fdbce5573a8db709348dd4b317&language=en-US&page=1";
+  const api = "https://api.themoviedb.org/3/movie/now_playing?api_key=25217b111b1e6d85e51f5435187616e6&language=en-US&page=1";
   const [latestMovie, setLatestMovie] = useState([]);
   const [loader, setLoader] = useState(true);
  

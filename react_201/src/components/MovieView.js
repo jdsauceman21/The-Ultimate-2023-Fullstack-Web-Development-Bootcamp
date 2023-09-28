@@ -8,7 +8,7 @@ const MovieView = () => {
   const [movieDetails, setMovieDetails] = useState({});
 
   useEffect(() => {
-    const movieUrl = `https://api.themoviedb.org/3/movie/${id}?api_key=1547e5fdbce5573a8db709348dd4b317&language=en-US`;
+    const movieUrl = `https://api.themoviedb.org/3/movie/${id}?api_key=25217b111b1e6d85e51f5435187616e6&language=en-US`;
     
     fetch(movieUrl)
       .then((res) => res.json())

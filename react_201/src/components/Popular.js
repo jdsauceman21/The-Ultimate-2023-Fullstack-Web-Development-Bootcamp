@@ -7,7 +7,7 @@ import MovieCard from "./MovieCard";
 
 const Popular = () => {
   const api =
-    "https://api.themoviedb.org/3/movie/upcoming?api_key=1547e5fdbce5573a8db709348dd4b317&language=en-US&page=1";
+    "https://api.themoviedb.org/3/movie/upcoming?api_key=25217b111b1e6d85e51f5435187616e6&language=en-US&page=1";
   const [popMovie, setPopMovie] = useState([]);
   const [loader, setLoader] = useState(true);
  
@@ -47,6 +47,3 @@ const Popular = () => {
 };
 
 export default Popular;
-
-
-//https://api.themoviedb.org/3/movie/latest?api_key=<<api_key>>&language=en-US

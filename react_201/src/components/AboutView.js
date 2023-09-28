@@ -7,7 +7,7 @@ const AboutView = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-8 offset-lg-2 my-5">
-                    <p>lorem ipsum</p>
+                    <p>this is my React app for reference</p>
                     </div>
                 </div>
             </div>

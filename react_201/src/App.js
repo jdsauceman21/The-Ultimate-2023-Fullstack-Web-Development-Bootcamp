@@ -6,6 +6,7 @@ import AboutView from './components/AboutView';
 import SearchView from './components/SearchView';
 import MovieView from './components/MovieView';
 import {Routes,Route} from 'react-router-dom';
+import Popular from './components/Popular';
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
       <Routes>
         <Route path="/Home" element={<Home />} />
         <Route path="/about" element={<AboutView />} />
+        <Route path="/about" element={<Popular />} />
         <Route path="/search" element={<SearchView keyword={searchText} searchResults={searchResults}/>}/>
         <Route path="/movies/:id" element={<MovieView/>} />
       </Routes>
