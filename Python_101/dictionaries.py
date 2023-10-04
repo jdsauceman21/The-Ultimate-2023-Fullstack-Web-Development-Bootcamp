@@ -1,7 +1,7 @@
 person = {
     "key": "value",
-    "name": "Kalob",
-    "twitter": "@KalobTaulien",
+    "name": "Jarrett",
+    "twitter": "@jarrett.sauceman",
 }
 # print(person['twitter'])
 
