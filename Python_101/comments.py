@@ -1,3 +1,3 @@
 # This is a code comment
-name = "Kalob Taulien" # This is the teachers name
+name = "Jarrett Sauceman" # This is the teachers name
 print(name)
