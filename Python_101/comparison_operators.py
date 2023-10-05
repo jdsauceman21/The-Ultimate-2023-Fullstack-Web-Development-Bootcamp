@@ -1,18 +1,18 @@
-# can_code = True
+can_code = True
 
-# if can_code == True:
-#     # do a thing
-#     print("You can code!")
-# else:
-#     # do something else
-#     print("You dont know how to code yet")
+if can_code == True:
+    # do a thing
+    print("You can code!")
+else:
+    # do something else
+    print("You dont know how to code yet")
 
-# teacher = "Kalob Taulien"
+teacher = "Kalob Taulien"
 
-# if teacher.lower() == "kalob taulien":
-#     print("Show the teacher portal")
-# else:
-#     print("You are a student. Welcome to Python 101")
+if teacher.lower() == "kalob taulien":
+    print("Show the teacher portal")
+else:
+    print("You are a student. Welcome to Python 101")
 
 name = input("What is your name? ")
 if name == "Bob":
