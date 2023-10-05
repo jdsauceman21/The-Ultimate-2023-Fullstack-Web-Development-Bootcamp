@@ -12,8 +12,8 @@ fav_foods = tuple(fav_foods)
 #     print(letter)
 
 person = {
-    "name": "Kalob",
-    "twitter": "@KalobTaulien",
+    "name": "Jarrett",
+    "twitter": "@Jarrettsauceman",
     "instagram": "@coding.for.everybody"
 }
 for key, value in person.items():
